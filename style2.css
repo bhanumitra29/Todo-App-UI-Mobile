@@ -246,7 +246,7 @@ div  input{
     }
     
     
-   .circlepp{
+   .circlep{
     margin-left: -110px;
    }
 
@@ -260,4 +260,94 @@ div  input{
    }
     
 
+}
+
+
+@media only screen and (max-width: 650px) and (min-width: 200px)
+{
+    body{
+        margin: 0;
+    }
+
+    .main1{
+        background-color: #F7F7F7;
+        padding-bottom: 800px;
+    }
+    
+
+    #head{
+        height: 30px;
+        width: auto;
+        padding: 10px 250px 0px 0px;
+        margin-left: -10px;
+    }
+
+    #tasks{
+        font-size: large;
+    }
+    
+    #list{
+        font-size: large;
+    }
+
+    .addp{
+        padding: 10px 0px 0px 10px;
+        /* margin: 10px; */
+        
+    }
+    
+    
+   .circlep{
+    margin-left: -110px;
+   }
+
+   .boxab{
+    width: 325px;
+    height: 320px;
+    position: absolute;
+    top: 130px;
+    left: 0;
+    margin: 20px;
+   }
+
+
+   .ba{
+       
+    width: 340px;
+    height: 240px;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    margin: 10px;
+    
+}
+
+
+.t1{
+    font-family: 'Karla', sans-serif;
+    font-size: large;
+}
+
+
+
+.t2{
+    font-size: small;
+    padding: 10px 0px 0px 160px;
+}
+
+.b1{
+    
+    height: 40px;
+    width: 300px;
+    margin: 25px 20px 20px 20px;
+    
+}
+
+.b2{
+    height: 40px;
+    width: 160px;
+   
+    margin: 0px 0px 0px 160px;
+}  
+   
 }
