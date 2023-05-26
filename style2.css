@@ -262,6 +262,39 @@ div  input{
 
 }
 
+@media only screen and (max-width: 1000px) and (min-width: 649px)
+{
+    body{
+        margin: 0;
+    }
+
+    #head{
+        padding: 10px 570px 0px 0px;
+        height: 50px;
+    }
+
+    .addp{
+       
+        padding: 20px 0px 0px 200px;
+    }
+
+    .boxab{
+        
+        position: absolute;
+        top: 180px;
+        left: 150px;
+       
+    }
+
+    .ba{
+       
+        position: absolute;
+        top: 180px;
+        left: 130px;
+        
+    }
+}
+
 
 @media only screen and (max-width: 650px) and (min-width: 200px)
 {
@@ -351,3 +384,5 @@ div  input{
 }  
    
 }
+
+
