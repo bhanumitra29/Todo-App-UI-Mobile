@@ -231,7 +231,7 @@ div  input{
     cursor: pointer;
 }
 
-@media only screen and (max-width: 900px) and (min-width: 600px)
+@media only screen and (max-width: 1000px) and (min-width: 600px)
 {
 
     body{
@@ -250,7 +250,7 @@ div  input{
 
     .boxp{
         gap: 30px;
-        margin-left: 50px;
+        margin-left: 40px;
     }
 
     .ba{
@@ -259,6 +259,26 @@ div  input{
         position: absolute;
         top: 180px;
         left: 150px;
+    }
+
+    .box{
+        height: 350px;
+        width: 640px;
+        
+       
+    }
+
+    .heading1{
+        padding-right: 50px;
+    }
+    
+    .heading2{
+        padding-right: 50px;
+    }
+    
+    
+    .heading4{
+        padding-right: 30px;
     }
 
 }
